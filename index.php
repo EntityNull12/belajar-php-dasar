@@ -51,7 +51,114 @@ satu baris
 
     echo strtoupper("terima kasih!!!"); // berfungsi untuk mengubah ke huruf kapital di semua kalimat
 
-    
+echo "<br>";
+// macam-macam tipe data pada php
+
+    // integer
+    $x = 100;
+    $y = 200;
+    $jumlah = $x + $y;
+    echo "$jumlah";
+
+echo "<br>";
+
+    // float
+    $x = 10.5;
+    $y = 20.3;
+    $jumlah = $x + $y;
+    echo "$jumlah";
+
+echo "<br>";
+
+        // mengatur desimal yang akan ditampilkan
+        $x = 100;
+        $y = 3;
+        $jumlah = $x / $y;
+        echo round($jumlah,4);
+
+echo "<br>";
+
+    // operator aritmatika
+        // perjumlahan
+        $x = 100;
+        $y = 200;
+        $jumlah = $x + $y;
+        echo "$jumlah";
+
+echo "<br>";
+
+        // pengutangan
+        $x = 100;
+        $y = 200;
+        $jumlah = $x - $y;
+        echo "$jumlah";
+
+echo "<br>";
+
+        // perkalian
+        $x = 100;
+        $y = 200;
+        $jumlah = $x * $y;
+        echo "$jumlah";
+
+echo "<br>";
+
+        // pembagian
+        $x = 100;
+        $y = 200;
+        $jumlah = $x / $y;
+        echo "$jumlah";
+
+echo "<br>";
+
+        // modulus
+        $x = 100;
+        $y = 200;
+        $jumlah = $x % $y;
+        echo "$jumlah";
+
+echo "<br>";
+
+        // increament
+        $a = 10;
+        $a++;
+        echo $a;
+
+echo"<br>";
+
+        // decrement
+        $a = 10;
+        $a--;
+        $a--;
+        echo $a;
+
+echo "<br>";
+
+// string
+
+    // perbedaan kutip satu ('') dengan kutip dua (" ")
+    $kutipsatu = 'kutip satu';
+    echo 'menggunakan $kutipsatu'; 
+    echo "<br>";
+    $kutipdua = "kutip dua";
+    echo "menggunakan $kutipdua";
+    echo "<br>";
+
+    // concat = menggabungkan dua atau lebih string
+        // contoh 1
+        $namadepan = "Adittia ";
+        $namabelakang = "Dimas";
+        $namalengkap = $namadepan . $namabelakang ;
+        echo "Nama Lengkap : $namalengkap";
+        echo "<br>";
+        // contoh 2
+        $namalengkap = "Rahmat " . "Arya";
+        echo $namalengkap;
+        echo "<br>";
+        // contoh 3
+        echo "Nama Lengkap : " . 'Adi ' . 'Fajar'; 
+        echo "<br>";
+
 
 // kode untuk menampilkan informasi PHP
     // phpinfo();
